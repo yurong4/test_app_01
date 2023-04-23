@@ -18,4 +18,4 @@ gr.Interface(
     inputs=gr.inputs.Image(label="Upload hot dog candidate", type="filepath"),
     outputs=gr.outputs.Label(num_top_classes=2),
     title="Hot Dog? Or Not?",
-).launch()
+).launch()。
