@@ -5,7 +5,7 @@
 # iface.launch()
 
 import gradio as gr
-from transformers import pipeline
+from transformers import pipelinexxxxx
 
 pipeline = pipeline(task="image-classification", model="julien-c/hotdog-not-hotdog")
 
@@ -18,4 +18,4 @@ gr.Interface(
     inputs=gr.inputs.Image(label="Upload hot dog candidate", type="filepath"),
     outputs=gr.outputs.Label(num_top_classes=2),
     title="Hot Dog? Or Not?",
-).launch()。
+).launch()
